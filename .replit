@@ -1,0 +1,10 @@
+run = "npm run dev"
+
+[nix]
+channel = "stable-23_11"
+
+[languages.javascript]
+lockfile = true
+
+[deployment]
+run = "npm run build && npm run start"
